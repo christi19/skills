@@ -11,6 +11,7 @@ Instrucciones reutilizables para agentes de IA (Claude, Codex, Gemini, DeepSeek�
 | Skill | Qué hace | Se usa en |
 |---|---|---|
 | [recoger-fotos-medios](por-proyecto/cddigitales/recoger-fotos-medios/SKILL.md) | Recoge las fotos de una carpeta del panel medios.cddigitales.com, las mira una por una y las coloca en un sitio (galerías, aparadores, catálogos) con los enlaces de B2 y textos escritos a partir de lo que se ve | Cualquier sitio que use fotos del panel de CD Digitales |
+| [ui-a-prueba-de-tontos](globales/ui-a-prueba-de-tontos/SKILL.md) | Crea y mejora interfaces web que entiende cualquiera sin explicación, fieles a la marca oficial del cliente y con carga rápida desde la primera línea (meta PageSpeed 100 en celular y escritorio) | Cualquier interfaz visible: páginas, landings, formularios, dashboards, apps, PWAs, galerías, e-commerce |
 
 ## Reglas del repositorio
 
