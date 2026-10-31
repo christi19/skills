@@ -16,6 +16,8 @@ No copiás las fotos dentro del proyecto ni las volvés a subir a ningún lado: 
 
 **Requisito:** tenés que poder ver imágenes. Si tu modelo no puede, decíselo a Christian y pará; este trabajo no se puede hacer a ciegas.
 
+**Versión oficial:** https://github.com/christi19/skills (`por-proyecto/cddigitales/recoger-fotos-medios/SKILL.md`). Si tenés una copia y no coincide con la del repositorio, manda la del repositorio.
+
 ## 1. Entender el pedido
 
 Necesitás cuatro datos. Si falta alguno, preguntá antes de empezar:
@@ -43,7 +45,7 @@ Si `medios` no está en el PATH:
 node "C:\Users\ctr04\Projects\Ecosistema cddigitales\02-panel-medios\cdd-medios\cli\medios.mjs" listar --proyecto <proyecto> --carpeta <carpeta> --limite 500
 ```
 
-Devuelve un JSON con `total` e `items`; de cada foto usá `url`, `ancho` y `alto` tal como vienen. Si `total` es mayor que la cantidad de `items`, subí el `--limite`. Las credenciales están en `C:\Users\ctr04\.cdd-medios.env`: **nunca las mostrés, copiés ni leás en voz alta**. Si el comando termina con código 2 (sin acceso), pasá al camino B.
+Devuelve un JSON con `total` e `items`; de cada foto usá `url`, `ancho` y `alto` tal como vienen. Si `total` es mayor que la cantidad de `items`, subí el `--limite`. Si la lista viene vacía, revisá que la carpeta esté bien escrita (minúsculas, guiones, sin tildes) y avisale a Christian. Las credenciales están en `C:\Users\ctr04\.cdd-medios.env`: **nunca las mostrés, copiés ni leás en voz alta**. Si el comando termina con código 2 (sin acceso), pasá al camino B.
 
 **Camino B — sin el comando** (cualquier otro agente o dispositivo): pedile a Christian que abra la carpeta en el panel, marque las fotos y toque **«Copiar URLs»** en la barra de abajo, y que te pegue la lista. Cada línea es un enlace público. El ancho y el alto los sacás al descargar cada foto. (Hoy las fotos se marcan una por una; con muchas fotos, el camino A es más rápido.)
 
